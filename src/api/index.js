@@ -2,6 +2,7 @@ import axios from "axios";
 
 const url = "https://covid19.mathdro.id/api";
 
+//fetching the data from the open source endpoints 
 export const fetchData = async () => {
   try {
     const {
@@ -14,5 +15,20 @@ export const fetchData = async () => {
       deaths,
       lastUpdate,
     };
-  } catch (error) {}
+  } catch (error) { }
 };
+
+
+export const fetchDailyData = async () => {
+  try {
+    const { data } = await axios.get(`${url}/daily`);
+    const modifiedData = data.map((dailyData) => ({
+      confirmed: dailyData.confirmed.total,
+      deaths: dailyData.deaths.total,
+      date: dailyData.reportDate,
+    }));
+    return modifiedData;
+  } catch (error) {
+
+  }
+}
