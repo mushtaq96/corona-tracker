@@ -1,0 +1,12 @@
+{
+    "hello.label": "Hello",
+    "thankyou.label": "Thank you",
+    "selectcountry.label": "Please select a country",
+    "welcome.label": "Welcome to my personal informer!",
+    "infected.label": "Infected",
+    "infectedtext.label": "Number of active cases of covid-19",
+    "recovered.label": "Recovered",
+    "recoveredtext.label": "Number of recovered cases",
+    "deaths.label": "Deaths",
+    "deathstext.label": "Number of Deaths caused"
+}

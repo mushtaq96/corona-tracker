@@ -19,6 +19,14 @@
 
 @media(max-width:770px){
     .card{
-        margin:2% 0 !important ;
+        margin:2% 0 !important;
+    }
+}
+
+@media(min-width:770px){
+    .card{
+        margin: 0 2% !important;
+        justify-content: center;
+        display: flex;
     }
 }

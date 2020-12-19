@@ -1,0 +1,12 @@
+{
+    "hello.label": "こんにちは",
+    "thankyou.label": "ありがとうございました",
+    "selectcountry.label": "国を選択してください",
+    "welcome.label": "私の個人的な情報提供者へようこそ！",
+    "infected.label": "感染",
+    "infectedtext.label": "コビド-19の有効症例数",
+    "recovered.label": "回復",
+    "recoveredtext.label": "回収件数",
+    "deaths.label": "死者数",
+    "deathstext.label": "死亡者数の推移"
+}
